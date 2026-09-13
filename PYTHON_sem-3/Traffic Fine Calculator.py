@@ -1,0 +1,10 @@
+speed=int(input("Enter speed "))
+if speed<=60:
+    fine='No Fine'   
+elif speed>60 and speed<=80:
+    fine=500
+elif speed>80 and speed<=100:
+    fine=1000
+elif speed<=100:
+    fine=2000
+print("Total amount of Fine is =₹",fine)
