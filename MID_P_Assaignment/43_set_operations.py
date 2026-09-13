@@ -1,0 +1,10 @@
+"""Program 3.7: set operations."""
+odd_numbers = set(range(1, 16, 2))
+multiples_of_three = set(range(3, 16, 3))
+print("Odd numbers:", odd_numbers)
+print("Multiples of 3:", multiples_of_three)
+print("Union:", odd_numbers | multiples_of_three)
+print("Intersection:", odd_numbers & multiples_of_three)
+print("Odd - multiples:", odd_numbers - multiples_of_three)
+print("Multiples - odd:", multiples_of_three - odd_numbers)
+print("Symmetric difference:", odd_numbers ^ multiples_of_three)
